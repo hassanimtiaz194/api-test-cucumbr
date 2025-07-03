@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CucumberTest" time="8.323" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.CucumberTest" time="13.023" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -9,14 +9,14 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
-    <property name="mvnd.terminalWidth" value="84"/>
+    <property name="mvnd.terminalWidth" value="126"/>
     <property name="user.timezone" value="Asia/Karachi"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.15.6-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\hassa\AppData\Local\Temp\surefire7489999642292887691\surefirebooter-20250629005814286_126.jar C:\Users\hassa\AppData\Local\Temp\surefire7489999642292887691 2025-06-29T00-00-14_508-jvmRun1 surefire-20250629005814286_124tmp surefire_19-20250629005814286_125tmp"/>
+    <property name="sun.java.command" value="C:\Users\hassa\AppData\Local\Temp\surefire1268263338509210479\surefirebooter-20250703193550156_58.jar C:\Users\hassa\AppData\Local\Temp\surefire1268263338509210479 2025-07-03T19-20-25_117-jvmRun1 surefire-20250703193550156_56tmp surefire_5-20250703193550156_57tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\projects\api-test-cucumbr\target\test-classes;D:\projects\api-test-cucumbr\target\classes;C:\Users\hassa\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\hassa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\hassa\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\hassa\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\hassa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\hassa\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-suite\1.10.2\junit-platform-suite-1.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\hassa\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;C:\Users\hassa\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\hassa\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\hassa\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\hassa\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\hassa\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\hassa\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hassa\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\hassa\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\hassa\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\hassa\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\hassa\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\hassa\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\hassa\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\hassa\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\hassa\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hassa\AppData\Local\Temp\surefire7489999642292887691\surefirebooter-20250629005814286_126.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hassa\AppData\Local\Temp\surefire1268263338509210479\surefirebooter-20250703193550156_58.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.15+6"/>
@@ -61,89 +61,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Verify status code and response time" classname="API GET request to ibltest endpoint" time="2.055">
-    <failure message="&#10;Expected: a value less than &lt;1000L&gt;&#10;     but: &lt;1303L&gt; was greater than &lt;1000L&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-
-Expected: a value less than <1000L>
-     but: <1303L> was greater than <1000L>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at stepdefinitions.ApiSteps.the_response_time_should_be_below(ApiSteps.java:31)
-	at ✽.the response time should be below 1000 milliseconds(classpath:features/scenario1.feature:5)
-]]></failure>
+  <testcase name="Verify status code and response time" classname="API GET request to ibltest endpoint" time="3.745">
     <system-out><![CDATA[
-Scenario: Verify status code and response time                           &amp#27;[90m# features/scenario1.feature:2&amp#27;[0m
+Scenario: Verify status code and response time                           &amp#27;[90m# features/scenario1.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                   &amp#27;[90m# stepdefinitions.ApiSteps.the_response_code_should_be(int)&amp#27;[0m
-Actual response time: 1303 ms
-  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe response time should be below &amp#27;[0m&amp#27;[31m&amp#27;[1m1000&amp#27;[0m&amp#27;[31m milliseconds&amp#27;[0m                &amp#27;[90m# stepdefinitions.ApiSteps.the_response_time_should_be_below(int)&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: 
-Expected: a value less than <1000L>
-     but: <1303L> was greater than <1000L>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at stepdefinitions.ApiSteps.the_response_time_should_be_below(ApiSteps.java:31)
-	at âœ½.the response time should be below 1000 milliseconds(classpath:features/scenario1.feature:5)
-&amp#27;[0m
+Actual response time: 2194 ms
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response time should be below &amp#27;[0m&amp#27;[32m&amp#27;[1m3000&amp#27;[0m&amp#27;[32m milliseconds&amp#27;[0m                &amp#27;[90m# stepdefinitions.ApiSteps.the_response_time_should_be_below(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Check &apos;id&apos; and &apos;episode.type&apos;" classname="Validate data integrity and type" time="1.522">
+  <testcase name="Check &apos;id&apos; and &apos;episode.type&apos;" classname="Validate data integrity and type" time="2.483">
     <system-out><![CDATA[
-Scenario: Check 'id' and 'episode.type'                                  &amp#27;[90m# features/scenario2.feature:2&amp#27;[0m
+Scenario: Check 'id' and 'episode.type'                                  &amp#27;[90m# features/scenario2.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32meach item in the data array should have a non-empty &amp#27;[0m&amp#27;[32m&amp#27;[1m"id"&amp#27;[0m          &amp#27;[90m# stepdefinitions.ApiSteps.each_item_in_the_data_array_should_have_a_non_empty(java.lang.String)&amp#27;[0m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32meach item should have &amp#27;[0m&amp#27;[32m&amp#27;[1m"episode.type"&amp#27;[0m&amp#27;[32m equal to &amp#27;[0m&amp#27;[32m&amp#27;[1m"episode"&amp#27;[0m            &amp#27;[90m# stepdefinitions.ApiSteps.each_item_should_have_equal_to(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Check &apos;episode.title&apos; is never empty" classname="Validate episode title" time="0.929">
+  <testcase name="Check &apos;episode.title&apos; is never empty" classname="Validate episode title" time="1.245">
     <system-out><![CDATA[
-Scenario: Check 'episode.title' is never empty                           &amp#27;[90m# features/scenario3.feature:2&amp#27;[0m
+Scenario: Check 'episode.title' is never empty                           &amp#27;[90m# features/scenario3.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32meach item should have a non-empty &amp#27;[0m&amp#27;[32m&amp#27;[1m"episode.title"&amp#27;[0m                 &amp#27;[90m# stepdefinitions.ApiSteps.each_item_should_have_a_non_empty(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Check only one live episode exists" classname="Validate only one live episode" time="0.942">
+  <testcase name="Check only one live episode exists" classname="Validate only one live episode" time="1.277">
     <system-out><![CDATA[
-Scenario: Check only one live episode exists                             &amp#27;[90m# features/scenario4.feature:2&amp#27;[0m
+Scenario: Check only one live episode exists                             &amp#27;[90m# features/scenario4.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32monly one item should have &amp#27;[0m&amp#27;[32m&amp#27;[1m"episode.live"&amp#27;[0m&amp#27;[32m equal to true&amp#27;[0m            &amp#27;[90m# stepdefinitions.ApiSteps.only_one_item_should_have_equal_to_true(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Start date should be before end date" classname="Validate transmission dates" time="0.922">
+  <testcase name="Start date should be before end date" classname="Validate transmission dates" time="1.195">
     <system-out><![CDATA[
-Scenario: Start date should be before end date                              &amp#27;[90m# features/scenario5.feature:2&amp#27;[0m
+Scenario: Start date should be before end date                              &amp#27;[90m# features/scenario5.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m    &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32meach item should have &amp#27;[0m&amp#27;[32m&amp#27;[1m"transmission_start"&amp#27;[0m&amp#27;[32m before &amp#27;[0m&amp#27;[32m&amp#27;[1m"transmission_end"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.each_item_should_have_before(java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Check &apos;Date&apos; header exists" classname="Validate response header date" time="0.852">
+  <testcase name="Check &apos;Date&apos; header exists" classname="Validate response header date" time="1.247">
     <system-out><![CDATA[
-Scenario: Check 'Date' header exists                                     &amp#27;[90m# features/scenario6.feature:2&amp#27;[0m
+Scenario: Check 'Date' header exists                                     &amp#27;[90m# features/scenario6.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should contain a &amp#27;[0m&amp#27;[32m&amp#27;[1m"Date"&amp#27;[0m&amp#27;[32m header&amp#27;[0m                       &amp#27;[90m# stepdefinitions.ApiSteps.the_response_should_contain_a_header(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Verify response for invalid date" classname="Validate 404 and error object for invalid date" time="0.713">
-    <failure message="Missing key: http_response_code&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-Missing key: http_response_code
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at stepdefinitions.ApiSteps.the_response_body_should_contain_and(ApiSteps.java:130)
-	at ✽.the response body should contain "details" and "http_response_code"(classpath:features/scenario7.feature:5)
-]]></failure>
+  <testcase name="Verify response for invalid date" classname="Validate 404 and error object for invalid date" time="0.813">
     <system-out><![CDATA[
-Scenario: Verify response for invalid date                                          &amp#27;[90m# features/scenario7.feature:2&amp#27;[0m
+Scenario: Verify response for invalid date                                          &amp#27;[90m# features/scenario7.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI make a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://testapi.io/api/RMSTest/ibltest/2023-09-11"&amp#27;[0m &amp#27;[90m# stepdefinitions.ApiSteps.i_make_a_get_request(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.ApiSteps.the_response_code_should_be(int)&amp#27;[0m
-  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe response body should contain &amp#27;[0m&amp#27;[31m&amp#27;[1m"details"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"http_response_code"&amp#27;[0m           &amp#27;[90m# stepdefinitions.ApiSteps.the_response_body_should_contain_and(java.lang.String,java.lang.String)&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: Missing key: http_response_code
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at stepdefinitions.ApiSteps.the_response_body_should_contain_and(ApiSteps.java:130)
-	at âœ½.the response body should contain "details" and "http_response_code"(classpath:features/scenario7.feature:5)
-&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response body should &amp#27;[0m&amp#27;[32m&amp#27;[1m"contain"&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m"details"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"http_response_code"&amp#27;[0m         &amp#27;[90m# stepdefinitions.ApiSteps.the_response_body_should_and(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

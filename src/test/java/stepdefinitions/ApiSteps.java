@@ -1,14 +1,20 @@
 package stepdefinitions;
 
-import io.cucumber.java.en.*;
-import io.restassured.response.Response;
-
 import java.util.List;
 import java.util.Map;
 
-import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalToIgnoringCase;
+import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.isEmptyOrNullString;
+import static org.hamcrest.Matchers.lessThan;
+import static org.hamcrest.Matchers.not;
+import static org.hamcrest.Matchers.notNullValue;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import static io.restassured.RestAssured.given;
+import io.restassured.response.Response;
 
 public class ApiSteps {
 
@@ -45,7 +51,9 @@ public class ApiSteps {
     @Then("there should be only one episode with status {string}")
     public void there_should_be_only_one_episode_with_status(String status) {
         List<String> statuses = response.jsonPath().getList("schedule.elements.episode.status");
-        if (statuses == null) throw new AssertionError("No 'episode.status' field found.");
+        if (statuses == null) {
+            throw new AssertionError("No 'episode.status' field found.");
+        }
         long count = statuses.stream().filter(s -> s.equalsIgnoreCase(status)).count();
         assertThat(count, is(1L));
     }
@@ -120,13 +128,31 @@ public class ApiSteps {
         assertThat("Header not found: " + headerName, header, notNullValue());
     }
 
-    @Then("the response body should contain {string} and {string}")
-    public void the_response_body_should_contain_and(String key1, String key2) {
+    @Then("the response body should {string} {string} and {string}")
+    public void the_response_body_should_and(String assertion, String key1, String key2) {
         Map<String, Object> body = response.jsonPath().getMap("");
         assertThat("Response body is null", body, notNullValue());
-        // Fallback to alternative keys if 'details' is not present
-        boolean hasKey1 = body.containsKey(key1) || body.containsKey("error") || body.containsKey("message");
-        assertThat("Missing key (or alternatives): " + key1, hasKey1, is(true));
-        assertThat("Missing key: " + key2, body.containsKey(key2), is(true));
+
+        boolean shouldContain = assertion.equalsIgnoreCase("contain");
+
+        // Extract error object if present
+        Map<String, Object> errorMap = null;
+        if (body.get("error") instanceof Map) {
+            errorMap = (Map<String, Object>) body.get("error");
+        }
+
+        boolean hasKey1 = body.containsKey(key1)
+                || (errorMap != null && errorMap.containsKey(key1))
+                || body.containsKey("message");
+        boolean hasKey2 = body.containsKey(key2)
+                || (errorMap != null && errorMap.containsKey(key2));
+
+        if (shouldContain) {
+            assertThat("Expected key1 (" + key1 + ") missing. Body: " + body, hasKey1, is(true));
+            assertThat("Expected key2 (" + key2 + ") missing. Body: " + body, hasKey2, is(true));
+        } else {
+            assertThat("Unexpected key1 (" + key1 + ") or alternatives present. Body: " + body, hasKey1, is(false));
+            assertThat("Unexpected key2 (" + key2 + ") present. Body: " + body, hasKey2, is(false));
+        }
     }
 }

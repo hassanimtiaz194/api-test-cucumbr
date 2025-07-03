@@ -1,23 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runner.CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.323 s <<< FAILURE! -- in runner.CucumberTest
-API GET request to ibltest endpoint.Verify status code and response time -- Time elapsed: 2.055 s <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: a value less than <1000L>
-     but: <1303L> was greater than <1000L>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)
-	at stepdefinitions.ApiSteps.the_response_time_should_be_below(ApiSteps.java:31)
-	at ✽.the response time should be below 1000 milliseconds(classpath:features/scenario1.feature:5)
-
-Validate 404 and error object for invalid date.Verify response for invalid date -- Time elapsed: 0.713 s <<< FAILURE!
-java.lang.AssertionError: 
-Missing key: http_response_code
-Expected: is <true>
-     but: was <false>
-	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
-	at stepdefinitions.ApiSteps.the_response_body_should_contain_and(ApiSteps.java:130)
-	at ✽.the response body should contain "details" and "http_response_code"(classpath:features/scenario7.feature:5)
-
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.02 s -- in runner.CucumberTest
